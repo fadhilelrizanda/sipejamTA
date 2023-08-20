@@ -7,7 +7,7 @@ from ultralytics import YOLO
 from tracker import Tracker
 
 
-video_path = os.path.join('.', 'data', 'people.mp4')
+video_path = "people.mp4"
 video_out_path = os.path.join('.', 'out.mp4')
 
 cap = cv2.VideoCapture(video_path)
